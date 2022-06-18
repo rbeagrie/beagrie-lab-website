@@ -1,0 +1,73 @@
+body {
+    font-family: 'Radio Canada', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Signika Negative', sans-serif;
+    color: #0c3856;
+}
+
+nav h1 {
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.bg-brainbow {
+    background-image: url('/media/images/brainbow_painting.jpg');
+    background-size: 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#intro-blurb {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.over-picture {
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-top: 5rem;
+}
+
+#home-footer {
+    margin-top: -6rem;
+    background-color: white;
+    margin-bottom 0.25rem;
+}
+
+#footer {
+    background-color: white;
+    margin-bottom 0.25rem;
+    margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+    .bg-brainbow {
+        background-position: left bottom;
+    }
+
+    .bg-nissl {
+        background-position: left bottom;
+    }
+}
+
+.bg-cortex {
+    background-image: url('/media/images/cortical-layers-painting-white.png');
+    background-size: 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.bg-nissl {
+    background-image: url('/media/images/nissl-painting.jpg');
+    background-size: 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.img-responsive {
+    max-width: 100%;
+    display:block;
+    height: auto;
+}
